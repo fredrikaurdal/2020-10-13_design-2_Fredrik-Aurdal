@@ -187,7 +187,6 @@ button {
   cursor: pointer;
   border-width: 1px;
   border-color: white;
-  /* box-sizing: border-box; */
 }
 
 .trends-right {
@@ -245,4 +244,14 @@ button {
   align-items: center;
   column-gap: 100px;
   margin-bottom: 45px;
+}
+
+.collection-intro button:hover {
+  text-decoration: none;
+  color: transparent;
+  background-color: #164c4e;
+  color: white;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: #164c4e;
 }
