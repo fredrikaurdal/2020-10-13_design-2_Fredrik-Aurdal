@@ -164,6 +164,9 @@ button {
 
 .trends button {
   margin-top: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #164c4e;
 }
 
 .trends button a {
@@ -178,15 +181,18 @@ button {
   color: white;
   cursor: pointer;
   border-width: 1px;
-  border-style: solid;
   border-color: white;
+  /* box-sizing: border-box; */
 }
 
-/* .trends .right img {
-  position: absolute;
-} */
+.trends-right {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
 
-.trends .right {
-  position: relative;
-  justify-self: end;
+.trends-right img {
+  display: inline-block;
+  margin-top: -450px;
+  margin-right: 150px;
 }
