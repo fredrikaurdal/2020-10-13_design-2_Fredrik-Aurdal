@@ -8,6 +8,7 @@ html {
   margin: 0;
   font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
+  background-color: #f1f1f1;
 }
 
 .hero {
@@ -194,5 +195,26 @@ button {
 .trends-right img {
   display: inline-block;
   margin-top: -450px;
-  margin-right: 150px;
+  margin-right: 300px;
+}
+
+.collection {
+  height: 100vh;
+  margin-top: 225px;
+  margin-bottom: 225px;
+}
+
+.background-pattern-1 {
+  background-image: url('./img/pattern-1.png');
+  height: 240px;
+}
+
+.background-pattern-2 {
+  background-image: url('./img/pattern-2.png');
+  height: 240px;
+}
+
+.background-pattern-3 {
+  background-image: url('./img/pattern-3.png');
+  height: 240px;
 }
