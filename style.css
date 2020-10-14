@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&display=swap');
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background-image: url('./img/hero.jpg');
+  background-color: #f1f1f1;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-center {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.hero-center h1 {
+  font-size: 96px;
+  white-space: pre-line;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  margin: 0;
+}
+
+.hero-divider {
+  height: 1px;
+  width: 89px;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 44px;
+}
+
+.hero-center button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
+
+.hero-center button a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-center button:hover {
+  text-decoration: none;
+  color: transparent;
+  background-color: white;
+  color: #164c4e;
+  cursor: pointer;
+}
+
+.hero-button span {
+  opacity: 0.9;
+}
+
+.navbar {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin-top: 55px;
+  max-width: 1765px;
+  align-items: center;
+  z-index: 1;
+}
+
+.navbar .center {
+  display: flex;
+  justify-content: space-between;
+  width: 959px;
+}
+
+.navbar a {
+  color: white;
+  opacity: 0.8;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  text-decoration: none;
+}
+
+.navbar .number {
+  justify-self: right;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+  font-size: 48px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+p {
+  white-space: pre-line;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 180%;
+  margin: 0;
+}
+
+.trends {
+  /* display: flex; */
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+  background-color: #164c4e;
+  padding: 150px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.trends .left {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.paragraph-blocks {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  background-color: white;
+  border: none;
+  padding: 13px 35px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+}
+
+.trends button {
+  margin-top: 40px;
+}
+
+.trends button a {
+  text-decoration: none;
+  color: #164c4e;
+}
+
+.trends button:hover {
+  text-decoration: none;
+  color: transparent;
+  background-color: #164c4e;
+  color: white;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+/* .trends .right img {
+  position: absolute;
+} */
+
+.trends .right {
+  position: relative;
+  justify-self: end;
+}
