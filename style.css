@@ -199,9 +199,9 @@ button {
 }
 
 .collection {
-  height: 100vh;
   margin-top: 225px;
   margin-bottom: 225px;
+  position: relative;
 }
 
 .background-pattern-1 {
@@ -217,4 +217,14 @@ button {
 .background-pattern-3 {
   background-image: url('./img/pattern-3.png');
   height: 240px;
+}
+
+.collection .content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
