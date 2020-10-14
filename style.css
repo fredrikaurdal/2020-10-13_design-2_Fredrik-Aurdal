@@ -255,3 +255,30 @@ button {
   border-width: 1px;
   border-color: #164c4e;
 }
+
+footer {
+  padding: 150px 100px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1765px;
+  align-items: center;
+}
+
+footer .center {
+  display: flex;
+  justify-content: space-between;
+  width: 959px;
+}
+
+footer a {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  text-decoration: none;
+}
+
+footer .number {
+  justify-self: right;
+}
