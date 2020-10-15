@@ -80,8 +80,8 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
   margin-top: 55px;
   max-width: 1765px;
   align-items: center;
