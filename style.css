@@ -306,3 +306,75 @@ footer a {
 footer .number {
   justify-self: right;
 }
+
+@media only screen and (max-width: 1158px) {
+  .navbar .center {
+    display: inline-grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+
+  footer .center {
+    display: inline-grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+
+  footer {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1517px) {
+  .navbar {
+    grid-template-columns: auto;
+    justify-items: center;
+    row-gap: 20px;
+  }
+
+  .navbar .left,
+  .navbar .right {
+    margin: 0;
+    justify-self: center;
+  }
+
+  footer {
+    grid-template-columns: auto;
+    justify-items: center;
+    row-gap: 20px;
+  }
+
+  footer .left,
+  footer .right {
+    margin: 0;
+    justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 1799px) {
+  .collection {
+    height: 1120px;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .collection {
+    height: 1520px;
+  }
+
+  .collection-intro {
+    grid-template-columns: auto;
+    justify-items: center;
+    row-gap: 10px;
+  }
+
+  .collection-intro h2 {
+    margin: 0;
+  }
+}
