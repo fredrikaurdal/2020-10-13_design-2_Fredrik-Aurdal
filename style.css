@@ -236,8 +236,21 @@ button {
 
 .collection .content .images {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  /* grid-auto-flow: dense; */
   column-gap: 50px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.collection .content .images img {
+  margin-bottom: 50px;
+}
+
+.content-wrapper {
+  width: 100%;
 }
 
 .collection-intro {
