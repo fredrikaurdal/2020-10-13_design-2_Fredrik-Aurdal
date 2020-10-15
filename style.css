@@ -134,10 +134,13 @@ p {
   width: 100%;
   display: inline-grid;
   grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
   background-color: #164c4e;
   padding: 150px;
   justify-content: space-between;
   box-sizing: border-box;
+  position: relative;
+  margin-bottom: 165px;
 }
 
 .trends .left {
@@ -151,6 +154,15 @@ p {
 
 .trends .left h2 {
   color: white;
+}
+
+.trends img {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  justify-self: center;
+  position: absolute;
 }
 
 .paragraph-blocks {
@@ -197,7 +209,7 @@ button {
   border-color: white;
 }
 
-.trends-right {
+/* .trends-right {
   display: flex;
   width: 100%;
   justify-content: flex-end;
@@ -207,7 +219,7 @@ button {
   display: inline-block;
   margin-top: -450px;
   margin-right: 300px;
-}
+} */
 
 .collection {
   margin-top: 225px;
