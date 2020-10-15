@@ -307,27 +307,9 @@ footer .number {
   justify-self: right;
 }
 
-@media only screen and (max-width: 1158px) {
-  .navbar .center {
-    display: inline-grid;
-    grid-template-rows: auto;
-    justify-content: center;
-    text-align: center;
-    row-gap: 10px;
-    width: 100%;
-  }
-
-  footer .center {
-    display: inline-grid;
-    grid-template-rows: auto;
-    justify-content: center;
-    text-align: center;
-    row-gap: 10px;
-    width: 100%;
-  }
-
-  footer {
-    max-width: 100%;
+@media only screen and (max-width: 1799px) {
+  .collection {
+    height: 1120px;
   }
 }
 
@@ -357,15 +339,33 @@ footer .number {
   }
 }
 
-@media only screen and (max-width: 1799px) {
-  .collection {
-    height: 1120px;
+@media only screen and (max-width: 1158px) {
+  .navbar .center {
+    display: inline-grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+
+  footer .center {
+    display: inline-grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    width: 100%;
+  }
+
+  footer {
+    max-width: 100%;
   }
 }
 
 @media only screen and (max-width: 1099px) {
   .collection {
-    height: 1520px;
+    min-height: 1520px;
   }
 
   .collection-intro {
@@ -376,5 +376,11 @@ footer .number {
 
   .collection-intro h2 {
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  .collection {
+    min-height: 2320px;
   }
 }
